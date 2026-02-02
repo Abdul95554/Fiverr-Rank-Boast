@@ -44,6 +44,11 @@ body {
   background: #1a73e8;
   color: #fff;
   display: inline-block;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #1669c1;
 }
 
 /* ================= HERO ================= */
@@ -253,6 +258,77 @@ body {
   padding: 40px 20px;
 }
 
+/* ================= LOGIN & SIGNUP PAGES ================= */
+.form-container {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  width: 350px;
+  text-align: center;
+  margin: 80px auto;
+}
+
+.form-container h2 {
+  margin-bottom: 25px;
+  color: #1f2937;
+  font-size: 28px;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.form-container input:focus {
+  outline: none;
+  border-color: #10b981;
+  box-shadow: 0 0 5px rgba(16,185,129,0.5);
+}
+
+.form-container button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #10b981;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-container button:hover {
+  background: #059669;
+}
+
+.form-container p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.form-container a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.form-container a:hover {
+  text-decoration: underline;
+}
+
+#error {
+  font-size: 14px;
+  color: #ef4444;
+  margin-top: 10px;
+}
+
 /* ================= MOBILE RESPONSIVE ================= */
 @media (max-width: 768px) {
   .header {
@@ -285,5 +361,11 @@ body {
 
   .testimonials h2 {
     font-size: 30px;
+  }
+
+  .form-container {
+    width: 90%;
+    margin: 50px auto;
+    padding: 30px 20px;
   }
 }
