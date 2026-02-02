@@ -369,3 +369,77 @@ body {
     padding: 30px 20px;
   }
 }
+
+
+
+
+/* ========================
+   Payments Section
+======================== */
+.payments {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f9f9f9;
+}
+
+.payments h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.payments p {
+  margin-bottom: 40px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.payment-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.payment-card {
+  background: #fff;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 140px;
+}
+
+.payment-card img {
+  width: 60px;
+  height: auto;
+  margin-bottom: 12px;
+}
+
+.payment-card span {
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+
+.payment-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+  .payment-cards {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .payment-card {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+}
