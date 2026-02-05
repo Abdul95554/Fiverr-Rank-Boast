@@ -443,3 +443,84 @@ body {
     margin: 0 auto;
   }
 }
+
+
+
+/* ========================
+   REFUND POLICY SECTION
+======================== */
+.refund-policy {
+  padding: 80px 20px;
+  background: linear-gradient(180deg, #ffffff, #f4fdf9);
+  text-align: center;
+}
+
+.refund-policy h2 {
+  font-size: 36px;
+  margin-bottom: 12px;
+  color: #111;
+}
+
+.refund-subtitle {
+  color: #555;
+  max-width: 650px;
+  margin: 0 auto 50px;
+  font-size: 16px;
+}
+
+.refund-box {
+  background: #fff;
+  max-width: 850px;
+  margin: auto;
+  padding: 45px 40px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+  text-align: left;
+}
+
+.refund-box h3 {
+  font-size: 26px;
+  margin-bottom: 18px;
+  color: #16c784;
+}
+
+.refund-box p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 25px;
+  line-height: 1.7;
+}
+
+.refund-box ul {
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.refund-box ul li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #333;
+}
+
+.refund-note {
+  display: block;
+  font-size: 14px;
+  color: #777;
+  border-top: 1px dashed #ddd;
+  padding-top: 15px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .refund-policy h2 {
+    font-size: 28px;
+  }
+
+  .refund-box {
+    padding: 30px 22px;
+  }
+
+  .refund-box h3 {
+    font-size: 22px;
+  }
+}
