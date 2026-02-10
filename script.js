@@ -1,5 +1,5 @@
 // WhatsApp number (with country code, no + sign)
-const whatsappNumber = "923106865295";
+const whatsappNumber = "923106625091";
 
 // Default message
 const defaultMessage = "Hello, I am interested in your Fiverr Rank Boost services.";
